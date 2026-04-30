@@ -40,7 +40,7 @@ Estructura del proyecto
       ├── style.css
       ├── app.js
       └── clientes.json
-```bash
+---
 
  Objetivo:
 
