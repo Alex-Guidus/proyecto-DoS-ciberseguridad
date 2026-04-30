@@ -24,30 +24,59 @@ htop, ss, iftop
 Wireshark
 
 Estructura del proyecto
-/Proyecto
- ├── web/
- │    ├── index.html
- │    ├── style.css
- │    ├── app.js
- │    └── clientes.json
- └── Proyecto_DoS.pdf
+
+   proyecto-dos-ciberseguridad
+ ├── README.md
+ ├── Proyecto_DoS.pdf
+ ├── assets/
+ │    ├── topologia.png
+ │    ├── htop_baseline.png
+ │    ├── htop_ataque.png
+ │    ├── htop_mitigacion.png
+ │    ├── web.png
+ │    └── comparativa.png
+ └── web/
+      ├── index.html
+      ├── style.css
+      ├── app.js
+      └── clientes.json
 
  Objetivo:
 
 Analizar el impacto de ataques DoS sobre un servidor web y aplicar medidas de mitigación para mantener la disponibilidad del servicio.
 
 Medidas de mitigación
-Configuración de Apache (mod_reqtimeout)
-Ajustes del kernel (sysctl)
-Reglas de firewall (iptables)
+Nivel aplicación (Apache)
+mod_reqtimeout
+Control de timeouts
+Optimización de conexiones
+Nivel red (kernel + firewall)
+SYN cookies
+Ajustes sysctl
+Reglas iptables
 
-Resultados
+Monitorización del sistema
+  Estado normal (baseline)
+Bajo consumo de CPU
+Pocas conexiones activas
+Sistema estable
 
-Tras aplicar las mitigaciones:
+  Bajo ataque
+Incremento de conexiones
+Saturación del servicio
+Degradación de disponibilidad
 
-✔️ Reducción de conexiones maliciosas
-✔️ Mejora del tiempo de respuesta
-✔️ Mayor estabilidad del sistema
+  Con mitigaciones aplicadas
+Reducción de conexiones maliciosas
+Sistema estable
+Servicio operativo
+
+  Comparativa de resultados
+  
+Conclusiones clave:
+Slowloris → satura conexiones HTTP
+SYN Flood → satura la pila TCP
+Las mitigaciones reducen significativamente el impacto
 
 Autor
 
