@@ -6,6 +6,7 @@ Servidor Ubuntu con Apache
 Máquina atacante Kali Linux
 Aplicación web básica con datos simulados
 Monitorización del sistema en tiempo real
+![Topología](topologia.png)
 
 Se analizan dos tipos de ataques:
 
@@ -22,6 +23,7 @@ hping3
 Slowloris
 htop, ss, iftop
 Wireshark
+![Web funcionando](web.png)
 
 Estructura del proyecto
 ``` id="1qgz3t"
@@ -61,18 +63,22 @@ Monitorización del sistema
 Bajo consumo de CPU
 Pocas conexiones activas
 Sistema estable
+![HTOP normal](htop_baseline.png)
 
   Bajo ataque
 Incremento de conexiones
 Saturación del servicio
 Degradación de disponibilidad
+![HTOP durante ataque](htop_ataque.png)
 
   Con mitigaciones aplicadas
 Reducción de conexiones maliciosas
 Sistema estable
 Servicio operativo
+![HTOP con mitigación](htop_mitigacion.png)
 
   Comparativa de resultados
+![Gráfico comparativo](comparativa.png)
   
 Conclusiones clave:
 Slowloris → satura conexiones HTTP
