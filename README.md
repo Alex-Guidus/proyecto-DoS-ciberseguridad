@@ -45,6 +45,8 @@ Estructura del proyecto
 ```
 ![Web funcionando](web.png)
 
+Web creada y operativa.
+
  Objetivo:
 
 Analizar el impacto de ataques DoS sobre un servidor web y aplicar medidas de mitigación para mantener la disponibilidad del servicio.
