@@ -24,7 +24,7 @@ htop, ss, iftop
 Wireshark
 
 Estructura del proyecto
-
+``` id="1qgz3t"
    proyecto-dos-ciberseguridad
  ├── README.md
  ├── Proyecto_DoS.pdf
@@ -40,6 +40,7 @@ Estructura del proyecto
       ├── style.css
       ├── app.js
       └── clientes.json
+```bash
 
  Objetivo:
 
