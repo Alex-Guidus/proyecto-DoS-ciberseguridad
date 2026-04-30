@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel de Clientes | Orion Data Services</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">Orion Data Services</p>
+      <h1>Portal interno de clientes</h1>
+      <p class="subtitle">
+        Entorno de demostración para consulta de registros de clientes
+        y validación de disponibilidad del servicio web.
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="summary-grid">
+      <article class="card stat-card">
+        <h2>Total clientes</h2>
+        <p id="totalClientes" class="stat-number">0</p>
+      </article>
+
+      <article class="card stat-card">
+        <h2>Estado del servicio</h2>
+        <p class="service-ok">Operativo</p>
+      </article>
+
+      <article class="card stat-card">
+        <h2>Última sincronización</h2>
+        <p id="lastUpdate">Cargando...</p>
+      </article>
+    </section>
+
+    <section class="card">
+      <div class="section-header">
+        <div>
+          <h2>Base de datos de clientes</h2>
+          <p class="muted">
+            Registros ficticios utilizados exclusivamente con fines académicos.
+          </p>
+        </div>
+
+        <div class="search-box">
+          <label for="searchInput">Buscar</label>
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Nombre, email, ciudad o empresa"
+          />
+        </div>
+      </div>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nombre</th>
+              <th>Email</th>
+              <th>Empresa</th>
+              <th>Ciudad</th>
+              <th>Estado</th>
+            </tr>
+          </thead>
+          <tbody id="clientesTableBody">
+            <tr>
+              <td colspan="6">Cargando datos...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="info-grid">
+      <article class="card">
+        <h2>Información del entorno</h2>
+        <ul class="info-list">
+          <li>Aplicación web estática servida desde Ubuntu Server</li>
+          <li>Datos cargados desde un fichero JSON local</li>
+          <li>Escenario preparado para pruebas de disponibilidad</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Finalidad del servicio</h2>
+        <p class="muted">
+          Esta aplicación se utiliza como objetivo controlado para pruebas de
+          monitorización, análisis de tráfico y validación de medidas defensivas.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Entorno académico de laboratorio · Datos ficticios · Proyecto de ciberseguridad</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
