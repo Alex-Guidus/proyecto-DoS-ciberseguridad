@@ -25,8 +25,6 @@ Slowloris
 htop, ss, iftop
 Wireshark
 
-![Web funcionando](web.png)
-
 Estructura del proyecto
 ``` id="1qgz3t"
    proyecto-dos-ciberseguridad
@@ -45,6 +43,7 @@ Estructura del proyecto
       ├── app.js
       └── clientes.json
 ```
+![Web funcionando](web.png)
 
  Objetivo:
 
