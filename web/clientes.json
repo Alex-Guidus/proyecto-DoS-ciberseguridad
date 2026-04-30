@@ -1,0 +1,20 @@
+[
+  { "id": 1, "nombre": "Carlos Martínez", "email": "c.martinez@orionlabs.test", "empresa": "Nova Retail", "ciudad": "Barcelona", "estado": "Activo" },
+  { "id": 2, "nombre": "Laura Gómez", "email": "l.gomez@orionlabs.test", "empresa": "BlueStone Tech", "ciudad": "Valencia", "estado": "Activo" },
+  { "id": 3, "nombre": "David Ruiz", "email": "d.ruiz@orionlabs.test", "empresa": "Ibercom Solutions", "ciudad": "Madrid", "estado": "Pendiente" },
+  { "id": 4, "nombre": "Ana Torres", "email": "a.torres@orionlabs.test", "empresa": "Vertex Group", "ciudad": "Sevilla", "estado": "Activo" },
+  { "id": 5, "nombre": "Sergio Navarro", "email": "s.navarro@orionlabs.test", "empresa": "Datacore Iberia", "ciudad": "Bilbao", "estado": "Activo" },
+  { "id": 6, "nombre": "Marina López", "email": "m.lopez@orionlabs.test", "empresa": "GreenPixel", "ciudad": "Málaga", "estado": "Pendiente" },
+  { "id": 7, "nombre": "Iván Romero", "email": "i.romero@orionlabs.test", "empresa": "Altair Systems", "ciudad": "Zaragoza", "estado": "Activo" },
+  { "id": 8, "nombre": "Claudia Pérez", "email": "c.perez@orionlabs.test", "empresa": "MetroLink", "ciudad": "Alicante", "estado": "Activo" },
+  { "id": 9, "nombre": "Javier Santos", "email": "j.santos@orionlabs.test", "empresa": "RedBay Consulting", "ciudad": "Murcia", "estado": "Activo" },
+  { "id": 10, "nombre": "Elena Castillo", "email": "e.castillo@orionlabs.test", "empresa": "CoreBridge", "ciudad": "Granada", "estado": "Pendiente" },
+  { "id": 11, "nombre": "Rubén Ortega", "email": "r.ortega@orionlabs.test", "empresa": "Helix Dynamics", "ciudad": "Santander", "estado": "Activo" },
+  { "id": 12, "nombre": "Nuria Vidal", "email": "n.vidal@orionlabs.test", "empresa": "Sigma Works", "ciudad": "Tarragona", "estado": "Activo" },
+  { "id": 13, "nombre": "Pablo Herrera", "email": "p.herrera@orionlabs.test", "empresa": "CloudAxis", "ciudad": "Valladolid", "estado": "Activo" },
+  { "id": 14, "nombre": "Lucía Moreno", "email": "l.moreno@orionlabs.test", "empresa": "Northwind Iberia", "ciudad": "Vigo", "estado": "Pendiente" },
+  { "id": 15, "nombre": "Adrián Serrano", "email": "a.serrano@orionlabs.test", "empresa": "Quantum Retail", "ciudad": "Salamanca", "estado": "Activo" },
+  { "id": 16, "nombre": "Patricia León", "email": "p.leon@orionlabs.test", "empresa": "Delta Secure", "ciudad": "Pamplona", "estado": "Activo" },
+  { "id": 17, "nombre": "Hugo Iglesias", "email": "h.iglesias@orionlabs.test", "empresa": "Urban Data Hub", "ciudad": "A Coruña", "estado": "Activo" },
+  { "id": 18, "nombre": "Marta Gil", "email": "m.gil@orionlabs.test", "empresa": "Skyline Networks", "ciudad": "Córdoba", "estado": "Pendiente" }
+]
